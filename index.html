@@ -15,7 +15,7 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="navbar__logo">Company Name</div>
+        <div class="navbar__logo">HOSU DESIGN</div>
         <ul class="navbar__menu">
           <li class="navbar__item navbar__item--aboutus">
             <a href="#">home</a>
@@ -40,6 +40,116 @@
       <button class="quote"><a href="#">Get a Quote</a></button>
     </main>
 
-    <section class="services"></section>
+    <section class="services">
+      <h2>Our Services</h2>
+      <ul class="services__cards">
+        <li class="services__item services__item1">
+          <i class="fas fa-laptop-code"></i>
+          <p>Web Design & Development</p>
+        </li>
+        <li class="services__item services__item2">
+          <i class="far fa-comments"></i>
+          <p>Digital Marketing</p>
+        </li>
+
+        <li class="services__item services__item3">
+          <i class="fas fa-user-edit"></i>
+          <p>Graphic Deisgn & Branding</p>
+        </li>
+      </ul>
+      <div class="services__desc">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+          architecto nobis. Quisquam, quae corporis qui temporibus ratione
+          doloremque ad a neque beatae, inventore eos architecto sunt voluptatem
+          excepturi! Consequatur, officiis.
+        </p>
+      </div>
+    </section>
+
+    <div class="portfolio">
+      <h2>Our Works</h2>
+      <ul class="portfolio__grid">
+        <li class="portfolio__item--1">
+          <img
+            src="https://images.pexels.com/photos/1049622/pexels-photo-1049622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
+        </li>
+        <li class="portfolio__item--2">
+          <img
+            src="https://images.pexels.com/photos/1716861/pexels-photo-1716861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
+        </li>
+        <li class="portfolio__item--3">
+          <img
+            src="https://images.pexels.com/photos/4887156/pexels-photo-4887156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
+        </li>
+        <li class="portfolio__item--4">
+          <img
+            src="https://images.pexels.com/photos/6157229/pexels-photo-6157229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
+        </li>
+
+        <li class="portfolio__item--5">
+          <img
+            src="https://images.pexels.com/photos/6156899/pexels-photo-6156899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
+        </li>
+        <li class="portfolio__item--6">
+          <img
+            src="https://images.pexels.com/photos/1261572/pexels-photo-1261572.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt=""
+          />
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <form action="#" name="contact_form">
+        <label for="first_name">First Name</label>
+        <input
+          name="first_name"
+          type="text"
+          required
+          placeholder="Your First Name"
+        />
+        <br />
+        <label for="last_name">Last Name</label>
+        <input
+          name="last_name"
+          type="text"
+          required
+          placeholder="Your Last Name"
+        />
+        <br />
+        <label for="email">Email</label>
+        <input
+          name="email"
+          type="email"
+          required
+          placeholder="you@domain.com"
+        />
+        <br />
+        <label for="message">Message</label><br />
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Enter your message here ..."
+          required
+        >
+        </textarea>
+        <div class="center">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
   </body>
 </html>
