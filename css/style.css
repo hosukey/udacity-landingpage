@@ -36,6 +36,7 @@ header {
 
 .navbar__item {
   padding: 0.4rem;
+  cursor: pointer;
 }
 
 /* Hero */
