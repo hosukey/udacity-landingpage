@@ -50,17 +50,18 @@ header {
 }
 
 .quote {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-top: 6rem;
   color: white;
-  padding: 0.6rem 2rem;
-  background-color: teal;
-  border-radius: 0.3rem;
+  padding: 0.7rem 2.3rem;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 0.4rem;
 }
 
 .quote:hover {
-  background-color: black;
-  transition: 0.3s ease-in-out;
+  background-color: crimson;
+  transition: 0.2s ease-in-out;
 }
 
 /* Services */
@@ -170,6 +171,7 @@ h2 {
 form {
   width: 60%;
   margin: 0 auto;
+  padding-bottom: 4rem;
 }
 
 label {
@@ -197,17 +199,19 @@ textarea:focus {
 }
 
 input[type='submit'] {
-  background: teal;
+  background: crimson;
+  opacity: 0.8;
   margin: 0 auto;
   outline: 0;
   color: white;
   border: 0;
-  padding: 12px 24px;
+  padding: 1rem 2rem;
   border-radius: 4px;
   transition: all ease-in-out 0.1s;
   position: relative;
   display: inline-block;
   text-align: center;
+  cursor: pointer;
 }
 
 input[type='submit']:focus {
@@ -216,11 +220,36 @@ input[type='submit']:focus {
 }
 
 input[type='submit']:hover {
-  background: black;
+  opacity: 1;
 }
 
 .center {
   text-align: center;
+}
+
+/* footer */
+
+.footer {
+  color: white;
+  display: flex;
+  height: 10rem;
+  background-color: crimson;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: flex-end;
+}
+
+.footer__copyright p {
+  font-size: 0.9rem;
+}
+
+.footer__sns {
+  display: flex;
+}
+
+.footer__sns li {
+  font-size: 1.4rem;
+  margin-left: 1.4rem;
 }
 
 /* Media Queries */
