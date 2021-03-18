@@ -17,10 +17,10 @@
       <nav class="navbar">
         <div class="navbar__logo">HOSU DESIGN</div>
         <ul class="navbar__menu">
-          <li class="navbar__item navbar__item--aboutus">home</li>
-          <li class="navbar__item navbar__item--services">services</li>
-          <li class="navbar__item navbar__item--portfolio">portfolio</li>
-          <li class="navbar__item navbar__item--contact">contact</li>
+          <li class="active navbar__item navbar__item--aboutus menu0">home</li>
+          <li class="navbar__item navbar__item--services menu1">services</li>
+          <li class="navbar__item navbar__item--portfolio menu2">portfolio</li>
+          <li class="navbar__item navbar__item--contact menu3">contact</li>
         </ul>
         <a href="#" class="navbar_toogleBtn">
           <i class="fas fa-bars"></i>
@@ -28,11 +28,11 @@
       </nav>
     </header>
 
-    <main class="hero section0">
+    <main class="hero section section0" id="menu0">
       <button class="quote"><a href="#">Get a Quote</a></button>
     </main>
 
-    <section class="services section1">
+    <section class="services section section1" id="menu1">
       <h2>Our Services</h2>
       <ul class="services__cards">
         <li class="services__item services__item1">
@@ -59,7 +59,7 @@
       </div>
     </section>
 
-    <div class="portfolio section2">
+    <div class="portfolio section section2 menu2" id="menu2">
       <h2>Our Works</h2>
       <ul class="portfolio__grid">
         <li class="portfolio__item--1">
@@ -102,7 +102,7 @@
       </ul>
     </div>
 
-    <div class="contact section3">
+    <div class="contact section section3 menu3" id="menu3">
       <h2>Contact Us</h2>
       <form action="#" name="contact_form">
         <label for="first_name">First Name</label>
